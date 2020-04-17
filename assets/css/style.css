@@ -23,6 +23,17 @@ body {
     padding: 5%;
 }
 
+.coffee-journey {
+    width: 80%;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+} 
+
 /******************* navbar *******************/
 
 .navbar {
@@ -36,8 +47,8 @@ body {
 }
 
 .navbar-brand {
-    width: "125px"; 
-    height: "150px";
+    width: 125px; 
+    height: 150px;
 }
 
 .navbar-brand img {
@@ -115,6 +126,10 @@ body {
     color: #f1f1f1;
   }
 
+.noScroll {
+    overflow: hidden;
+}
+
 /******************* jumbotron *******************/
 
 header {
@@ -151,4 +166,11 @@ footer {
     color: #fff;
     font-size: 1em;
     font-weight: 700;
+}
+
+@media (max-width: 576px) {
+   .navbar-brand {
+        width: 80px;
+        height: 100px;
+    }
 }
