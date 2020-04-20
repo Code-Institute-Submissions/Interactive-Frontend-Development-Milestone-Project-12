@@ -4,6 +4,26 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+#home-background {
+    background: url("../images/coffee_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+#belt-background {
+    background: url("../images/belt_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+}
+
 .section-container {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -132,15 +152,6 @@ body {
 
 /******************* jumbotron *******************/
 
-header {
-    height: 80vh;
-    background: url("../images/coffee_background.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .jumbotron {
     display: inline-block;
     padding-top: 125px;
@@ -167,6 +178,15 @@ footer {
     font-size: 1em;
     font-weight: 700;
 }
+
+/* Media query for mobile device to set background-attachment to scroll as fixed not supported on IOS */
+ @media (hover: none) {
+    #home-background, #belt-background {
+        background-attachment: scroll;
+    }
+}
+
+/* Media query for mobile devices */
 
 @media (max-width: 576px) {
    .navbar-brand {
