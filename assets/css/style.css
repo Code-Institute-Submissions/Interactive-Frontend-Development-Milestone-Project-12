@@ -346,6 +346,38 @@ footer {
     display: block;
 }
 
+.gm-style .gm-style-iw-c {
+    border-radius: 0px;
+}
+
+.infoContent {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.infoContent h4 {
+    padding: 5px;
+}
+
+.infoContent a {
+  color: #24424f;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/******************* location cards *******************/
+
+.card-title {
+   
+}
+
+.card-text {
+    margin-top: 20px;
+}
+
+.card .btn {
+    margin-top: 20px;       
+}
 
 /******************* Media Queries  *******************/
 
