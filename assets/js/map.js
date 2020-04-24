@@ -296,3 +296,8 @@ function initMap() {
     }
 }
 
+// function called when location card clicked, scroll to map and show map marker
+function OpenInfowindowForMarker(index) {
+    google.maps.event.trigger(markers[index], 'click');
+    document.getElementById("map").scrollIntoView({block: 'center',  behavior: 'smooth'});
+}
