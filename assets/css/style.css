@@ -25,7 +25,17 @@ body {
 }
 
 #brew-background {
-    background: url("../images/brew-background.jpg");
+    background: url("../images/brew_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+#locations-background {
+    background: url("../images/locations_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -217,6 +227,7 @@ footer {
 }
 
 /******************* brew methods slideshow *******************/
+
 .espresso-containter {
     width:80%;
     margin-left: auto;
@@ -267,7 +278,7 @@ footer {
     color: #f2f2f2;
     font-size: 1em;
     padding: 8px 12px;
-    display: relative;
+    position: relative;
     width: 100%;
     text-align: left;
 }
@@ -279,6 +290,10 @@ footer {
     padding: 8px 12px;
     position: absolute;
     top: 0;
+}
+
+.slideImage {
+    width: 100%;
 }
 
 /* The dots/bullets/indicators */
@@ -320,6 +335,19 @@ footer {
     to {opacity: 1}
 }*/
 
+
+/******************* Locations Google Map *******************/
+
+#map {
+    height: 70vh;  
+    width: 100%;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+/******************* Media Queries  *******************/
 
 /* Media query for mobile device to set background-attachment to scroll as fixed not supported on IOS */
  @media (hover: none) {
