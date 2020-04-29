@@ -209,6 +209,28 @@ footer {
     border-radius: 8px;
 }
 
+/******************* bean belt style *******************/
+
+.coffee-images {
+    margin-top: 10px;
+}
+
+.coffee-bean {
+    margin-top: 30px;
+    position: relative;
+}
+
+.bean-image {
+    position: relative;
+    width: 100%;
+}
+
+.zoom-image {
+    position: absolute;
+    width: 8%;
+    top: 0px;
+    right: 15px;
+}
 
 /******************* brew methods style *******************/
 
@@ -372,11 +394,11 @@ footer {
 }
 
 .card-text {
-    margin-top: 20px;
+    
 }
 
 .card .btn {
-    margin-top: 20px;       
+          
 }
 
 /******************* Media Queries  *******************/
