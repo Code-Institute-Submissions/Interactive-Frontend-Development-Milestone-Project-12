@@ -10,7 +10,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -20,7 +20,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -30,7 +30,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -40,7 +40,17 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
+    width: 100vw;
+}
+
+#contact-background {
+    background: url("../images/contact_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -202,7 +212,7 @@ footer {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 10px; /* Place the button at the bottom of the page */
-  right: 10px; /* Place the button 10px from the right */
+  right: 5px; /* Place the button 10px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -274,6 +284,7 @@ footer {
 
 .espresso-containter {
     width:80%;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -361,25 +372,6 @@ footer {
     background-color: #717171;
 }
 
- /* Fading animation 
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
-
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}*/
-
-
 /******************* Locations Google Map *******************/
 
 #map {
@@ -421,6 +413,29 @@ footer {
 
 .card .btn {
           
+}
+
+/******************* contact styles  *******************/
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+.form-control {
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#message-status {
+    height: 60px;
+    text-align: left;
 }
 
 /******************* Media Queries  *******************/

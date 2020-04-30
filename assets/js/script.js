@@ -19,11 +19,11 @@ function changeIcon(icon) {
 //Get the button:
 topBtn = document.getElementById("topBtn");
 
-// When the user scrolls down 100px from the top of the document, show the button
+// When the user scrolls down 500px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
     topBtn.style.display = "block";
   } else {
     topBtn.style.display = "none";
@@ -37,8 +37,45 @@ function topFunction() {
 }
 
 
-$(document).ready(function(){
+/* function to send email and display an alert status if message was sent successfully or failed */
+function sendEmail(contactForm) {
+    var service_id = "gmail";
+    var template_id = "ireland_coffee_experience";
+    var template_params = {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.emailAddress.value,
+        "message": contactForm.message.value
+    };
 
+    emailjs.send(service_id, template_id, template_params)
+    .then(
+        function(response) {
+            console.log("success", response);
+            //display info alert if the message was sent
+            $("#message-status").html(`<div class="alert alert-info alert-dismissible fade show">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    Thanks for your message it's great to hear from you!
+                    </div>`);
+            //close info alert after 5 secs
+            window.setTimeout(function () {$(".alert").alert('close')}, 5000);
+        },
+        function(error) {
+            console.log("fail", error);
+            //display warning alert if the message was not sent
+            $("#message-status").html(`<div class="alert alert-warning alert-dismissible fade show">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    Oh no something went wrong please try again!
+                    </div>`);
+            //close info alert after 5 secs
+            window.setTimeout(function () {$(".alert").alert('close')}, 5000);
+    });
+    // reset the forms field to default
+    $('#contactForm').trigger("reset");
+    return false;
+}
+
+$(document).ready(function(){
+    // function to change the img src with fade animation when img is clicked
     $("#robusta_coffee").click(function () {
         if($(this).attr("src") === "assets/images/robusta_coffee.jpg"){
             $(this).fadeOut(300, function() {
@@ -53,7 +90,8 @@ $(document).ready(function(){
         }        
     });
 
-   $("#arabica_coffee").click(function () {
+    // function to change the img src with fade animation when img is clicked
+    $("#arabica_coffee").click(function () {
         if($(this).attr("src") === "assets/images/arabica_coffee.jpg"){
             $(this).fadeOut(300, function() {
                 $(this).attr("src", "assets/images/arabica_bean.jpg");
