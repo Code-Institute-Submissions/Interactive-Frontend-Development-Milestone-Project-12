@@ -4,9 +4,9 @@ ___
 This website is a guide to the coffee culture within Ireland, covering the coffee journey from bean to cup, detailing the different varieties of coffee beans and where coffee is grown. An introduction is included for the different brew methods used at home and prepared by your local barista and shows the location of some of the best coffee cafes within Ireland.
 ___
 ### UX
-####User Stories
+#### User Stories
 This website is aimed at those who are new to the coffee industry or just have a genuine interest in learning more about the product they drink daily. 
-####Strategy
+#### Strategy
 The design goal for the website was to make a contemporary spacious page that had a clear clutter free layout to display the information easily to visitors. The website colour scheme of blue and brown hues for the logo, footer, images, etc, links with the natural earthy produce of coffee that is visually appealing to the visitor but clearly displays the info in a clear contextually feel.
 #### Scope
 The scope was an introduction to the coffee world showing where coffee comes from, the types of coffee and where it can be found. This guide was to equip the visitor with enough information to visit any of the artisan cafe and know exactly what they were ordering and to expand upon their coffee knowledge.
