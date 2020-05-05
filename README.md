@@ -17,14 +17,16 @@ Most importantly for the user location page has been used that contains a locati
 Finally a contact page has been created to allow the user to send a message for help, queries or suggestions they may have. 
 
 #### Wireframes
-[Landing Page - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20desktop.png)
-[Landing Page - mobile](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20mobile.png)
-[Landing Page - mobile nav sidepanel]( https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20nav%20sidepanel.png)
-[Landing Page content](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20content.png)
-[Coffee Belt - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/coffee%20belt%20desktop.png)
-[Brew methods - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/brew%20method%20desktop.png)
-[Locations - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/locations%20desktop.png)
-[Contact - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/contact%20desktop.png)
+<ul>
+<li>[Landing Page - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20desktop.png)</li>
+<li>[Landing Page - mobile](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20mobile.png)</li>
+<li>[Landing Page - mobile nav sidepanel]( https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20nav%20sidepanel.png)</li>
+<li>[Landing Page content](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20content.png)</li>
+<li>[Coffee Belt - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/coffee%20belt%20desktop.png)</li>
+<li>[Brew methods - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/brew%20method%20desktop.png)</li>
+<li>[Locations - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/locations%20desktop.png)</li>
+<li>[Contact - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/contact%20desktop.png)</li>
+</ul>
 ___
 ### Technologies
 1. HTML
