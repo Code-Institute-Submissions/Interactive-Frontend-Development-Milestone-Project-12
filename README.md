@@ -1,8 +1,12 @@
 # Ireland Coffee Experience
 ### Project: Interactive Frontend Development Milestone
 ___
+
+
 This website is a guide to the coffee culture within Ireland, covering the coffee journey from bean to cup, detailing the different varieties of coffee beans and where coffee is grown. An introduction is included for the different brew methods used at home and prepared by your local barista and shows the location of some of the best coffee cafes within Ireland.
 ___
+
+
 ### UX
 #### User Stories
 This website is aimed at those who are new to the coffee industry or just have a genuine interest in learning more about the product they drink daily. 
@@ -17,17 +21,17 @@ Most importantly for the user location page has been used that contains a locati
 Finally a contact page has been created to allow the user to send a message for help, queries or suggestions they may have. 
 
 #### Wireframes
-<ul>
-<li>[Landing Page - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20desktop.png)</li>
-<li>[Landing Page - mobile](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20mobile.png)</li>
-<li>[Landing Page - mobile nav sidepanel]( https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20nav%20sidepanel.png)</li>
-<li>[Landing Page content](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20content.png)</li>
-<li>[Coffee Belt - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/coffee%20belt%20desktop.png)</li>
-<li>[Brew methods - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/brew%20method%20desktop.png)</li>
-<li>[Locations - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/locations%20desktop.png)</li>
-<li>[Contact - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/contact%20desktop.png)</li>
-</ul>
+[Landing Page - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20desktop.png)\
+[Landing Page - mobile](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20mobile.png)\
+[Landing Page - mobile nav sidepanel]( https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20nav%20sidepanel.png)\
+[Landing Page content](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20content.png)\
+[Coffee Belt - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/coffee%20belt%20desktop.png)\
+[Brew methods - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/brew%20method%20desktop.png)\
+[Locations - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/locations%20desktop.png)\
+[Contact - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/contact%20desktop.png)\
 ___
+
+
 ### Technologies
 1. HTML
 2. CSS
@@ -35,15 +39,25 @@ ___
 4. jquery(v3.4.1)
 5. Javascript  
 ___
+
+
 ### Features
 This site uses a fixed top Bootstrap 4 navbar with a brand logo on the left and collapse menu on the right that is responsive to media size. When media size is not a desktop width the navbar toggle will display a sidepanel called via javascript. A back to top button is included on each page that is only displayed when the user scrolls down the page.
 On the coffee belt page javascript has been used to change an image from a bowl of beans to show a close-up of a single bean. The page also uses a jquery plugin from jqueryscript.net to add item points with annotations to show an image of the coffee belt and growing regions.
+
+
 The brew-methods page contains a slide show that uses javascript to display the individual slides with next and prev links and an indicator to show the current slide number displayed.
 Google maps API is used on the location page to display Ireland with map markers that have a bounce animation and will show an info window when clicked. The list of café locations are displayed under the map using a bootstrap card grid layout and will navigate to café location on map.
+
+
 The contact page contains a form to send messages using javascript and jsemail service. When the user sends a message a bootstrap alert will be displayed to indicate if the message was sent successfully or not. 
+
+
 #### Features to Implement
 In the future, I would like to add section that will be a how to guide on home brewing, detailing what equipment is needed and the brew recipe with animations to show the user through the brew method steps. I would also like to add a section on coffee roasters, where the user will be able order coffee directly to home and set up monthly subscriptions.
 ___
+
+
 ### Testing
 The navbar for the site was to be fixed to top of screen but I wanted to minimise its screen space when viewed on mobile and tablet devices. To achieve this a toggle was used to hide the nav menu on these smaller screen sizes. When the user clicks on the navbar toggle a side panel containing the navigation would be displayed from the right side to cover 60% of the screen. This feature was tested and allowed quick and easy access to the nav links. During the testing it was found that the user could scroll the page when the side panel was displayed.  This resulted in the side panel close button also being scrolled out of view, to resolve the window was set to disable scroll when the side panel is open. 
 When the user scrolls down the page a ‘back to top’ button will be displayed in the bottom right corner of the screen, this is to allow the user to quickly return to the top of the page and access the navigation bar. This was tested and after some testing it was found that setting the button to be displayed when the user scrolls down 500px was ideal.
@@ -57,6 +71,8 @@ The location page uses google api to display a map showing Ireland with map mark
 On the contact page the user can send a message, it was tested that the message was succesfully sent to the correct email address via the jsemail service. When the user sent the message a test to displayed a hidden bootstrap alert was succesfully. It was also tested that a warning was displayed when all form fields were not completed and that the email input had to include a @ symbol warning.
 
 ___
+
+
 ### Deployment
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
@@ -65,6 +81,8 @@ The site has been deployed to this location:
 https://dalecars.github.io/User-Centric-Frontend-Development-Milestone-Project/  
 
 ___
+
+
 ### Credits
 
 #### Content
