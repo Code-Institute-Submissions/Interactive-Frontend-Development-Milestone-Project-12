@@ -4,9 +4,9 @@ ___
 This website is a guide to the coffee culture within Ireland, covering the coffee journey from bean to cup, detailing the different varieties of coffee beans and where coffee is grown. An introduction is included for the different brew methods used at home and prepared by your local barista and shows the location of some of the best coffee cafes within Ireland.
 ___
 ### UX
-#### User Stories
+####User Stories
 This website is aimed at those who are new to the coffee industry or just have a genuine interest in learning more about the product they drink daily. 
-#### Strategy
+####Strategy
 The design goal for the website was to make a contemporary spacious page that had a clear clutter free layout to display the information easily to visitors. The website colour scheme of blue and brown hues for the logo, footer, images, etc, links with the natural earthy produce of coffee that is visually appealing to the visitor but clearly displays the info in a clear contextually feel.
 #### Scope
 The scope was an introduction to the coffee world showing where coffee comes from, the types of coffee and where it can be found. This guide was to equip the visitor with enough information to visit any of the artisan cafe and know exactly what they were ordering and to expand upon their coffee knowledge.
@@ -17,14 +17,14 @@ Most importantly for the user location page has been used that contains a locati
 Finally a contact page has been created to allow the user to send a message for help, queries or suggestions they may have. 
 
 #### Wireframes
-[Landing Page (desktop)] ( https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20desktop.png)
-[Landing Page (mobile)] ( https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20mobile.png)
-[Landing Page (mobile nav sidepanel)] ( https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20nav%20sidepanel.png)
-[Landing Page (content)] (https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20content.png)
-[Coffee belt (desktop)] ( https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/coffee%20belt%20desktop.png)
-[Brew methods (desktop)] ( https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/brew%20method%20desktop.png)
-[Locations (desktop)] ( https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/locations%20desktop.png)
-[Contact (desktop)] ( https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/contact%20desktop.png)
+[Landing Page - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20desktop.png)
+[Landing Page - mobile](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20mobile.png)
+[Landing Page - mobile nav sidepanel]( https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20nav%20sidepanel.png)
+[Landing Page content](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/landing%20page%20content.png)
+[Coffee Belt - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/coffee%20belt%20desktop.png)
+[Brew methods - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/brew%20method%20desktop.png)
+[Locations - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/locations%20desktop.png)
+[Contact - desktop](https://github.com/dalecars/Interactive-Frontend-Development-Milestone-Project/blob/master/wireframes/contact%20desktop.png)
 ___
 ### Technologies
 1. HTML
@@ -45,21 +45,14 @@ ___
 ### Testing
 The navbar for the site was to be fixed to top of screen but I wanted to minimise its screen space when viewed on mobile and tablet devices. To achieve this a toggle was used to hide the nav menu on these smaller screen sizes. When the user clicks on the navbar toggle a side panel containing the navigation would be displayed from the right side to cover 60% of the screen. This feature was tested and allowed quick and easy access to the nav links. During the testing it was found that the user could scroll the page when the side panel was displayed.  This resulted in the side panel close button also being scrolled out of view, to resolve the window was set to disable scroll when the side panel is open. 
 When the user scrolls down the page a ‘back to top’ button will be displayed in the bottom right corner of the screen, this is to allow the user to quickly return to the top of the page and access the navigation bar. This was tested and after some testing it was found that setting the button to be displayed when the user scrolls down 500px was ideal.
+
 On the coffee belt page two key features were tested. The first is the change of the coffee bean image so that the img src would change from one image to another when the user clicks on it with a smoot transition fading out and then in. An overlay image of a magnifying glass in the top right corner of the coffee bean image was also tested to ensure it changed from a zoom out or zoom in image depending on the image displayed. The second feature on this page tested was the coffee belt image that would show animated item points that would pulse. When the user clicks on the item point it was tested that an annotation window would popup to give details on the coffee region flavours.
+
 The brew page contains a list of different brew methods that shows an image with text wrapping around it at larger media screen sizes. At the smaller screen sizes it was tested that this image would become centred with the brew description below the image. This page also contains a slideshow feature for the espresso brew types. It was tested that each espresso type would be displayed when the user clicked on the next/prev button to increment/decrement through the slides with current slide indicator changing accordingly.
 
+The location page uses google api to display a map showing Ireland with map markers for the cafe locations. Testing showed that the map to centralise to the center of Ireland and all maps markers where displayed at the correct lat and long coordinates. When the users hovered over the map marker it was tested that the marker would have a bounce annimation and would stop when the mouse moved out. Testing was succesfully when the user clicked on a marker the map would zoom into the location and an info window would be displayed given the location name, address and a link to google maps directions. When the user clicked on the directions link a new window was open as the target was set to blank. Below the google map the cafe locations where displayed as bootstrap cards in a grid layout, when the user clicked on a card it was successfully tested that the screen would smoothly scroll to the map and display the assoicatiated map marker for the location. It was also tested that the location cards where displayed one under another at small screen sizes.
 
-
-It was neccessary to list all the treatments that Kingdom Massage offers. An accordian feature was succesfully used to hide the detail description with an image for each treatment until a user choose to view the treatment. For phone users the treatment image was deemed 
-unnecessary and added clutter, this was hidden when viewed at this screen size. This accordion design was tested at each screen size succesfully.
-
-For the about section a grid design was used to display the therapist image in one column and the profile history in another. For desktop and tablet display the two columns were displayed side by side. However for phone users both columns were to be spread to the screen width and below each other. It was then neccessary to ensure that the profile image was centered on the phone display. The profile history content was to be partial hidden to limit screen space and only fully displayed when the user clicked on "read more..." button. All features for this section were succesfully tested to the various screen sizes.
-
-The Contact section included address details for Kingdom Massage and a user form to allow a message to be sent for further details or to arrange an appointment. A nested grid layout was used to display at tablet and desktop screen sizes this information side by side in two columns, but at smaller phone sizes it was best to only display each col at the full screen view. This was tested and clearly displayed the info as intended at the differet screen sizes.
-
-The user form was tested to ensure that all fields were completed and displayed an error message if not. The form was tested to ensure that the user can only enter numbers and symbols for the phone field and must enter a valid email address before the user can submit the input otherwise an error message will be displayed. 
-
-Social media links were included in the footer this was tested to ensure that a new tab was opened and user directed to the correct page. The links also changed background colour when user hoovered over the link this was tested and showed a gradual transition as expected.  
+On the contact page the user can send a message, it was tested that the message was succesfully sent to the correct email address via the jsemail service. When the user sent the message a test to displayed a hidden bootstrap alert was succesfully. It was also tested that a warning was displayed when all form fields were not completed and that the email input had to include a @ symbol warning.
 
 ___
 ### Deployment
