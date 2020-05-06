@@ -101,7 +101,7 @@ function initMap() {
     [`<div class="infoContent">
         <h4>The Shack</h4>
         <p>Marblehill, Marble Hill, Co. Donegal, Ireland</p>
-        <a href="https://goo.gl/maps/cSYxtDwPxuJHK8Vw9" target="_blank">Get Directions</a>
+        <a href="https://goo.gl/maps/LA7v4hEFLuvno2HFA" target="_blank">Get Directions</a>
     </div>`, 55.176139, -7.902022],
     [`<div class="infoContent">
         <h4>Caffe Banba</h4>
