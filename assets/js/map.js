@@ -250,7 +250,7 @@ function initMap() {
     
     // var to set a coffee cup icon to be displayed as map marker
     var icon = {
-        url: '/assets/images/coffee_icon.png',
+        url: "../images/coffee_icon.png",
         size: new google.maps.Size(34, 49),
         origin: new google.maps.Point(0, 0),
         anchor: new google.maps.Point(17, 49)
