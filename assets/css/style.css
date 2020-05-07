@@ -442,7 +442,7 @@ button[type="submit"] {
 
 /* Media query for mobile device to set background-attachment to scroll as fixed not supported on IOS */
  @media (hover: none) {
-    #home-background, #belt-background {
+    #home-background, #belt-background, #brew-background, #locations-background, #contact-background {
         background-attachment: scroll;
     }
 }
