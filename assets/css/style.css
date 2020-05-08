@@ -209,23 +209,23 @@ footer {
 /******************* back to top style *******************/
 
 #topBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 10px; /* Place the button at the bottom of the page */
-  right: 5px; /* Place the button 10px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #24424f; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 5px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 16px; /* Increase font size */
+  display: none; 
+  position: fixed; 
+  bottom: 10px; 
+  right: 5px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #24424f; 
+  color: white; 
+  cursor: pointer; 
+  padding: 5px; 
+  border-radius: 10px; 
+  font-size: 16px; 
 }
 
 #topBtn:hover {
-  background-color: #282f39; /* Add a dark-blue background on hover */
+  background-color: #282f39; 
 }
 
 /******************* home page style *******************/
@@ -293,14 +293,12 @@ footer {
 	display: none;
 }
 
-/* Slideshow container */
 .slideshow-container {
     position: relative;
     margin: auto;
     color: #fff;
 }
 
-/* Next & previous buttons */
 .slideshow-container .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -316,18 +314,15 @@ footer {
     user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 .slideText {
     background-color: #282f39;
     color: #f2f2f2;
@@ -338,7 +333,6 @@ footer {
     text-align: left;
 }
 
-/* Number text (1/3 etc) */
 .slideNumber {
     color: #f2f2f2;
     font-size: 12px;
@@ -351,7 +345,6 @@ footer {
     width: 100%;
 }
 
-/* The dots/bullets/indicators */
 .slideshowDots {
     margin-top: 20px;
     text-align: center;
@@ -448,7 +441,6 @@ button[type="submit"] {
 }
 
 /* Media query for mobile devices */
-
 @media (max-width: 576px) {
    .navbar-brand {
         width: 80px;

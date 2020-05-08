@@ -1,9 +1,6 @@
 // var to set the slide index, initally set to display first slide
 var slideIndex = 1;
 
-// call function to show the slide
-showSlides(slideIndex);
-
 // function to increment/decrement the slide index when next/prev is clicked and call the showSlide function
 function plusSlides(n) {
     showSlides(slideIndex += n);
@@ -30,3 +27,8 @@ function showSlides(slideNumber) {
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " dotActive";
 }
+
+$(document).ready(function(){
+    // call function to show the slide
+    showSlides(slideIndex);
+});

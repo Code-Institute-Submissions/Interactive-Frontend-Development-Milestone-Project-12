@@ -1,4 +1,4 @@
-/* fucntion to display navigation sidepanel menu on smaller screens */
+// fucntion to display navigation sidepanel menu on smaller screens 
 function toggleSidePanel() {
     if ($(".sidePanel").width() === 0) {
         $(".sidePanel").width("60%");
@@ -9,12 +9,12 @@ function toggleSidePanel() {
     }
 }
 
-/* function to change nav toggle icon to close button for sidepanel */
+// function to change nav toggle icon to close button for sidepanel
 function changeIcon(icon) {
     icon.classList.toggle("change");
 }
 
-/* functions to display back to top button when user scrolls down  */
+// functions to display back to top button when user scrolls down 
 
 //Get the button:
 topBtn = document.getElementById("topBtn");
@@ -36,7 +36,7 @@ function topFunction() {
 }
 
 
-/* function to send email and display an alert status if message was sent successfully or failed */
+// function to send email and display an alert status if message was sent successfully or failed
 function sendEmail(contactForm) {
     var service_id = "gmail";
     var template_id = "ireland_coffee_experience";
